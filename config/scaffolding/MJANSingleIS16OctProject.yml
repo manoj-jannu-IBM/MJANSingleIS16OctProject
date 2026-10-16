@@ -310,6 +310,32 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1222
+- serviceName: project.mjansingleis16oct.integrations:readProjectVariable
+  packages:
+  - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
