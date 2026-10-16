@@ -12,6 +12,7 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 - name: WmSalesforceRESTProvider
+  version: 12.0.0.0.26
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
 services:
