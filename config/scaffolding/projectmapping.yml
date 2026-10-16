@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: MJANSingleIS16OctProject
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: WorkflowTPPInvoke
+    type: workflow
+    uid: fl7c0f5eb510144cfb86a6a4343efe6361
+    stepId: a0
+    reference: SIQACloudStreamsTests:connetorOperations
