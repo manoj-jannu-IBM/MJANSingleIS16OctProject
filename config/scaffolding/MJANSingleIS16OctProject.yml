@@ -15,13 +15,32 @@ packages:
   version: 12.0.0.0.26
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
+- serviceName: project.mjansingleis16oct.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:SIQADBOracleDBAccount
+  packages:
+  - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuth
   packages:
   - name: MJANSingleIS16OctProject
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRest
@@ -30,6 +49,10 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.integrations:SFBasicAuthSoap
@@ -38,6 +61,10 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
@@ -46,6 +73,10 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.integrations:SFOAuthRest
@@ -54,6 +85,10 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
@@ -62,6 +97,10 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.streaming.connections:EmbeddedMessaging
@@ -70,6 +109,10 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
 configurationVariables:
