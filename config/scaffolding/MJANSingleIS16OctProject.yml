@@ -18,6 +18,18 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+- serviceName: project.mjansingleis16oct.integrations:SFBasicAuthSoap
+  packages:
+  - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+- serviceName: project.mjansingleis16oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
+  packages:
+  - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
 - serviceName: project.mjansingleis16oct.streaming.connections:EmbeddedMessaging
   packages:
   - name: MJANSingleIS16OctProject
