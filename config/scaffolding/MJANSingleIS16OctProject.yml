@@ -48,6 +48,22 @@ services:
     version: 12.0.0.0.25
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+- serviceName: project.mjansingleis16oct.integrations:SFOAuthRest
+  packages:
+  - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+- serviceName: project.mjansingleis16oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
+  packages:
+  - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
 - serviceName: project.mjansingleis16oct.streaming.connections:EmbeddedMessaging
   packages:
   - name: MJANSingleIS16OctProject
