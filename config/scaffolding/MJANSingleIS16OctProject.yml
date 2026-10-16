@@ -31,10 +31,17 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: DADA_GlobalVariable1
+  gitServerName: SIQAGitHubTest_shared
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.mjansingleis16oct.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:SIQADBOracleDBoperation
   packages:
   - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -52,6 +59,8 @@ services:
   packages:
   - name: MJANSingleIS16OctProject
     version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmSalesforceProvider
@@ -67,6 +76,8 @@ services:
 - serviceName: project.mjansingleis16oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
   packages:
   - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -84,6 +95,8 @@ services:
   packages:
   - name: MJANSingleIS16OctProject
     version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
   - name: WmSalesforceProvider
@@ -99,6 +112,8 @@ services:
 - serviceName: project.mjansingleis16oct.integrations:SFOAuthRest
   packages:
   - name: MJANSingleIS16OctProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
