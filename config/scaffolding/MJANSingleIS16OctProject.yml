@@ -56,11 +56,6 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
-- name: JDBC_without_required_jar
-  gitServerName: SIQAGitHubTest_shared
-  gitUrl: https://github.com/prabhakarsag
-  gitUsername: manoj-jannu-IBM
-  gitBranch: main
 services:
 - serviceName: project.mjansingleis16oct.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:SIQADBOracleDBoperation
   packages:
