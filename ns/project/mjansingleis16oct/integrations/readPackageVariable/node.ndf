@@ -46,8 +46,8 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="createdBy">Gen-SIQA-Test@ibm.com</value>
-    <value name="createdDate">2026-10-16T10:05:36.591814158Z</value>
-    <value name="lastModifiedDate">2026-10-16T10:05:36.591814158Z</value>
+    <value name="createdDate">1793002254536</value>
+    <value name="lastModifiedDate">2026-10-26T08:10:54.536960595Z</value>
     <value name="displayName">readPackageVariable</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -84,6 +84,11 @@
       </record>
     </record>
     <value name="modifiedBy">Gen-SIQA-Test@ibm.com</value>
+    <record name="edgeServer" javaclass="com.wm.util.Values">
+      <value name="group">Default</value>
+      <value name="id">default</value>
+      <value name="name">Cloud Execution</value>
+    </record>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
